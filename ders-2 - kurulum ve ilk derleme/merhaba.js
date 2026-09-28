@@ -1,8 +1,7 @@
 "use strict";
-// İlk TypeScript dosyamız
-const isim = "Ayşe";
-const yas = 28;
+const isim = "Mehmet";
+const yas = 30;
 function selamla(kisi, yil) {
     return `Merhaba ${kisi}, ${yil} yaşındasın.`;
 }
-console.log(selamla(isim, yas));
+document.body.append(selamla(isim, yas));
