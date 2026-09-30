@@ -1,0 +1,6 @@
+{
+  "name": "magaza",
+  "scripts": {
+    "build": "tsc"
+  }
+}
