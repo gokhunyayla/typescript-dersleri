@@ -45,6 +45,21 @@ tsc sepet.ts
 node sepet.js
 ```
 
+Ders 10 ve sonrasında proje düzeni kullanılır (`tsconfig.json`, `src/`, `dist/`, `index.html`):
+
+```bash
+cd "ders-16 - modüller"
+tsc
+```
+
+Ders 16 ve sonrasındaki sayfalar modül kullandığı için `index.html` dosyasını çift tıklayarak değil, klasörü yerel bir sunucuyla açın. Örneğin:
+
+```bash
+npx serve .
+```
+
+veya VS Code'daki Live Server eklentisi. Ders 20'de veri `data/urunler.json` dosyasından okunur, internet gerekmez.
+
 İhtiyacı olanların işine yaramasını umuyorum.
 
 YouTube video eğitimi serisi: https://www.youtube.com/@gokhunyayla
